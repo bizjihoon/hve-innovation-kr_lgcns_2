@@ -1,0 +1,4 @@
+﻿policy_id,access_role,allowed_org_scope,masking_rule,is_synthetic
+SYN-POL-001,synthetic_admin,"SYN-ORG-101,SYN-ORG-102,SYN-ORG-103,SYN-ORG-201,SYN-ORG-202,SYN-ORG-203,SYN-ORG-301,SYN-ORG-302,SYN-ORG-303",,true
+SYN-POL-002,synthetic_manager,"SYN-ORG-101,SYN-ORG-102,SYN-ORG-103",employee_id partial mask (example only),true
+SYN-POL-003,synthetic_analyst,SYN-ORG-101,employee_id hidden (example only),true
