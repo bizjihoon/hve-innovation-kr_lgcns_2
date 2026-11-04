@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1740" height="965" viewBox="0 0 1740 965" font-family="'Segoe UI','Malgun Gothic','Noto Sans CJK KR','Noto Sans KR','NanumGothic',sans-serif">
+<defs>
+<linearGradient id="gCop" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7B61FF"/><stop offset="0.55" stop-color="#2BA5F5"/><stop offset="1" stop-color="#FF6BB5"/></linearGradient>
+<linearGradient id="gAI" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7B61FF"/><stop offset="1" stop-color="#0078D4"/></linearGradient>
+<filter id="sh" x="-5%" y="-5%" width="110%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#1B3A5C" flood-opacity="0.12"/></filter>
+<marker id="ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#33475F"/></marker>
+<marker id="arA" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#CA5010"/></marker>
+<marker id="arR" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#D13438"/></marker>
+<marker id="arP" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#6B5DD3"/></marker>
+<marker id="arT" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#008272"/></marker>
+
+<g id="i-user"><circle cx="16" cy="10" r="6" fill="#0078D4"/><path d="M4 29c0-7 5-12 12-12s12 5 12 12z" fill="#0078D4"/></g>
+<g id="i-chat"><path d="M4 6a4 4 0 0 1 4-4h16a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H14l-7 6v-6H8a4 4 0 0 1-4-4z" fill="url(#gCop)"/><path d="M16 6.5l1.9 5.4L23.5 14l-5.6 1.9L16 21.5l-1.9-5.6L8.5 14l5.6-2.1z" fill="#fff"/></g>
+<g id="i-app"><rect x="2" y="4" width="28" height="24" rx="4" fill="#0078D4"/><path d="M2 8a4 4 0 0 1 4-4h20a4 4 0 0 1 4 4v3H2z" fill="#50B0F0"/><circle cx="6.5" cy="7.5" r="1.2" fill="#fff"/><circle cx="10.5" cy="7.5" r="1.2" fill="#fff"/><path d="M11 21l-3-3 3-3M21 15l3 3-3 3M17.5 14l-3 8" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g id="i-shield"><path d="M16 2l12 4v9c0 8-5 13-12 15C9 28 4 23 4 15V6z" fill="#0078D4"/><path d="M10 16l4 4 8-8" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g id="i-catalog"><rect x="5" y="3" width="22" height="26" rx="3" fill="#0078D4"/><circle cx="10.5" cy="10" r="1.8" fill="#9FE870"/><rect x="14" y="8.5" width="9" height="3" rx="1.5" fill="#fff"/><circle cx="10.5" cy="16" r="1.8" fill="#9FE870"/><rect x="14" y="14.5" width="9" height="3" rx="1.5" fill="#fff"/><circle cx="10.5" cy="22" r="1.8" fill="#9FE870"/><rect x="14" y="20.5" width="9" height="3" rx="1.5" fill="#fff"/></g>
+<g id="i-search"><circle cx="13" cy="13" r="8.5" fill="#E6F2FC" stroke="#0078D4" stroke-width="4"/><path d="M20 20l9 9" stroke="#0078D4" stroke-width="5" stroke-linecap="round"/><path d="M13 8.5l1.2 3.3 3.3 1.2-3.3 1.2L13 17.5l-1.2-3.3L8.5 13l3.3-1.2z" fill="#7B61FF"/></g>
+<g id="i-aoai"><path d="M16 2l12 7v14l-12 7L4 23V9z" fill="url(#gAI)"/><path d="M16 8l2 6 6 2-6 2-2 6-2-6-6-2 6-2z" fill="#fff"/></g>
+<g id="i-tag"><path d="M3 5a2 2 0 0 1 2-2h10l14 14-12 12L3 15z" fill="#0078D4"/><circle cx="10" cy="10" r="2.5" fill="#fff"/></g>
+<g id="i-review"><circle cx="13" cy="10" r="6" fill="#0078D4"/><path d="M2 28c0-7 5-11 11-11 3 0 5 1 7 2.5z" fill="#0078D4"/><circle cx="23" cy="23" r="8" fill="#13A10E"/><path d="M19 23l3 3 5-6" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g id="i-flag"><path d="M6 3v26" stroke="#0078D4" stroke-width="3" stroke-linecap="round"/><path d="M8 5h18l-4 6 4 6H8z" fill="#0078D4"/></g>
+<g id="i-folder"><path d="M3 8a2 2 0 0 1 2-2h8l3 3h11a2 2 0 0 1 2 2v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" fill="#FFB900"/></g>
+<g id="i-chart"><rect x="3" y="3" width="26" height="26" rx="4" fill="#0078D4"/><rect x="8" y="16" width="4" height="8" fill="#fff"/><rect x="14" y="11" width="4" height="13" fill="#fff"/><rect x="20" y="7" width="4" height="17" fill="#fff"/></g>
+<g id="i-mail"><rect x="2" y="6" width="28" height="20" rx="3" fill="#0078D4"/><path d="M3 9l13 9 13-9" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g id="i-doc"><path d="M7 2h12l7 7v19a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="#0078D4"/><path d="M19 2v7h7z" fill="#50B0F0"/><rect x="9" y="14" width="14" height="2.5" rx="1" fill="#fff"/><rect x="9" y="19" width="14" height="2.5" rx="1" fill="#fff"/><rect x="9" y="24" width="9" height="2.5" rx="1" fill="#fff"/></g>
+<g id="i-storage"><ellipse cx="16" cy="7" rx="11" ry="4" fill="#50B0F0"/><path d="M5 7v18c0 2.2 4.9 4 11 4s11-1.8 11-4V7c0 2.2-4.9 4-11 4S5 9.2 5 7z" fill="#0078D4"/></g>
+<g id="i-entra"><path d="M16 2l13 14-13 14L3 16z" fill="#0078D4"/><circle cx="13" cy="16" r="4" fill="none" stroke="#fff" stroke-width="2.5"/><path d="M17 16h8M22 16v4" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/></g>
+<g id="i-monitor"><rect x="2" y="4" width="28" height="20" rx="3" fill="#0078D4"/><path d="M5 18l5-5 4 4 6-7 6 5" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="11" y="26" width="10" height="3" rx="1.5" fill="#0078D4"/></g>
+<g id="i-alert"><circle cx="16" cy="16" r="14" fill="#CA5010"/><rect x="14.5" y="8" width="3" height="11" rx="1.5" fill="#fff"/><circle cx="16" cy="23" r="2" fill="#fff"/></g>
+<g id="i-flow"><rect x="2" y="2" width="28" height="28" rx="6" fill="#742774"/><path d="M7 10h13l-4-4M7 22h13l-4 4" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g id="i-graph"><path d="M8 16L24 8M8 16l16 8" stroke="#008272" stroke-width="2.5"/><circle cx="8" cy="16" r="5.5" fill="#008272"/><circle cx="24" cy="8" r="5" fill="#00B294"/><circle cx="24" cy="24" r="5" fill="#00B294"/></g>
+</defs>
+<rect width="1740" height="965" fill="#FFFFFF"/>
+
+<text x="40" y="40" font-size="22" font-weight="700" fill="#14263B" text-anchor="start">근거 기반 요약 Copilot — 관리자 / 분석가용 MVP 아키텍처</text>
+<text x="40" y="62" font-size="13" font-weight="400" fill="#5A6B80" text-anchor="start">승인된 근거만 사용 · 사실 / 가정 / 불확실성 구분 · 최종 판단은 인간 검토</text>
+<rect x="40" y="80" width="1660" height="140" rx="14" fill="#F6F4FE" stroke="#CFC8F5" stroke-width="1.5"/>
+<rect x="56" y="70" width="150" height="24" rx="12" fill="#6B5DD3"/>
+<text x="131.0" y="86" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">① 사용자 경험</text>
+<rect x="40" y="236" width="1660" height="330" rx="14" fill="#F3F8FE" stroke="#BBD6F5" stroke-width="1.5"/>
+<rect x="56" y="226" width="150" height="24" rx="12" fill="#0078D4"/>
+<text x="131.0" y="242" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">② 핵심 서비스</text>
+<rect x="40" y="586" width="1660" height="130" rx="14" fill="#F1FAF8" stroke="#B5E0D8" stroke-width="1.5"/>
+<rect x="56" y="576" width="190" height="24" rx="12" fill="#008272"/>
+<text x="151.0" y="592" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">③ 데이터 소스 · 통합</text>
+<rect x="40" y="736" width="1660" height="170" rx="14" fill="#F6F8FA" stroke="#CBD4DF" stroke-width="1.5"/>
+<rect x="56" y="726" width="180" height="24" rx="12" fill="#50607A"/>
+<text x="146.0" y="742" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">④ Azure 플랫폼 서비스</text>
+<rect x="100" y="118" width="165" height="84" rx="10" fill="#FFFFFF" stroke="#B9CBE3" stroke-width="1.5" filter="url(#sh)"/>
+<use xlink:href="#i-user" href="#i-user" transform="translate(112,130) scale(1.0)"/>
+<text x="154" y="151" font-size="11" font-weight="400" fill="#5A6B80" text-anchor="start">질문 입력</text>
+<text x="112" y="190" font-size="14" font-weight="700" fill="#1F2D3D" text-anchor="start">관리자 / 분석가</text>
+<rect x="295" y="118" width="360" height="84" rx="10" fill="#FFFFFF" stroke="#9C8CF0" stroke-width="1.5" filter="url(#sh)"/>
+<use xlink:href="#i-chat" href="#i-chat" transform="translate(307,130) scale(1.0)"/>
+<text x="349" y="151" font-size="11" font-weight="400" fill="#5A6B80" text-anchor="start">Teams 에이전트 · 웹 포털 (App Service)</text>
+<text x="307" y="190" font-size="14" font-weight="700" fill="#1F2D3D" text-anchor="start">Copilot 스타일 대화형 UX</text>
+<rect x="685" y="118" width="165" height="84" rx="10" fill="#FFF6EB" stroke="#CA5010" stroke-width="1.5" stroke-dasharray="6 4" filter="url(#sh)"/>
+<use xlink:href="#i-alert" href="#i-alert" transform="translate(697,130) scale(1.0)"/>
+<text x="739" y="151" font-size="11" font-weight="400" fill="#5A6B80" text-anchor="start">사용자에게 되묻기</text>
+<text x="697" y="190" font-size="14" font-weight="700" fill="#1F2D3D" text-anchor="start">추가 근거 요청</text>
+<rect x="1075" y="118" width="360" height="84" rx="10" fill="#FFFFFF" stroke="#9C8CF0" stroke-width="1.5" filter="url(#sh)"/>
+<use xlink:href="#i-review" href="#i-review" transform="translate(1087,130) scale(1.0)"/>
+<text x="1129" y="151" font-size="11" font-weight="400" fill="#5A6B80" text-anchor="start">근거 링크 · 신뢰도 · 승인 / 반려</text>
+<text x="1087" y="190" font-size="14" font-weight="700" fill="#1F2D3D" text-anchor="start">인간 검토 · 승인 카드 UX</text>
+<path d="M265 160H293" fill="none" stroke="#33475F" stroke-width="2" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<path d="M685 160H657" fill="none" stroke="#CA5010" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arA)"/>
+<rect x="100" y="340" width="165" height="84" rx="10" fill="#FFFFFF" stroke="#7FB3E6" stroke-width="1.8" filter="url(#sh)"/>
+<use xlink:href="#i-app" href="#i-app" transform="translate(112,352) scale(1.0)"/>
+<text x="154" y="373" font-size="11" font-weight="400" fill="#5A6B80" text-anchor="start">App Service</text>
+<text x="112" y="412" font-size="14" font-weight="700" fill="#1F2D3D" text-anchor="start">질문 수집</text>
+<circle cx="250" cy="354" r="9" fill="#0078D4"/>
+<text x="250" y="358" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<rect x="295" y="340" width="165" height="84" rx="10" fill="#FFFFFF" stroke="#7FB3E6" stroke-width="1.8" filter="url(#sh)"/>
+<use xlink:href="#i-shield" href="#i-shield" transform="translate(307,352) scale(1.0)"/>
+<text x="349" y="373" font-size="11" font-weight="400" fill="#5A6B80" text-anchor="start">검증 규칙 · 정책</text>
+<text x="307" y="412" font-size="14" font-weight="700" fill="#1F2D3D" text-anchor="start">근거 검증</text>
+<circle cx="445" cy="354" r="9" fill="#0078D4"/>
+<text x="445" y="358" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<rect x="490" y="340" width="165" height="84" rx="10" fill="#FFFFFF" stroke="#7FB3E6" stroke-width="1.8" filter="url(#sh)"/>
+<use xlink:href="#i-catalog" href="#i-catalog" transform="translate(502,352) scale(1.0)"/>
+<text x="544" y="373" font-size="11" font-weight="400" fill="#5A6B80" text-anchor="start">AI Search 인덱스</text>
+<text x="502" y="395" font-size="14" font-weight="700" fill="#1F2D3D" text-anchor="start">승인된</text>
+<text x="502" y="412" font-size="14" font-weight="700" fill="#1F2D3D" text-anchor="start">근거 카탈로그</text>
+<circle cx="640" cy="354" r="9" fill="#0078D4"/>
+<text x="640" y="358" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<rect x="685" y="340" width="165" height="84" rx="10" fill="#FFFFFF" stroke="#7FB3E6" stroke-width="1.8" filter="url(#sh)"/>
+<use xlink:href="#i-search" href="#i-search" transform="translate(697,352) scale(1.0)"/>
+<text x="739" y="373" font-size="11" font-weight="400" fill="#5A6B80" text-anchor="start">AI Search</text>
+<text x="697" y="412" font-size="14" font-weight="700" fill="#1F2D3D" text-anchor="start">소스 매핑</text>
+<circle cx="835" cy="354" r="9" fill="#0078D4"/>
+<text x="835" y="358" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<rect x="880" y="340" width="165" height="84" rx="10" fill="#FFFFFF" stroke="#7FB3E6" stroke-width="1.8" filter="url(#sh)"/>
+<use xlink:href="#i-aoai" href="#i-aoai" transform="translate(892,352) scale(1.0)"/>
+<text x="934" y="373" font-size="11" font-weight="400" fill="#5A6B80" text-anchor="start">Azure OpenAI</text>
+<text x="892" y="412" font-size="14" font-weight="700" fill="#1F2D3D" text-anchor="start">요약 생성</text>
+<circle cx="1030" cy="354" r="9" fill="#0078D4"/>
+<text x="1030" y="358" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+<rect x="1075" y="340" width="165" height="84" rx="10" fill="#FFFFFF" stroke="#7FB3E6" stroke-width="1.8" filter="url(#sh)"/>
+<use xlink:href="#i-tag" href="#i-tag" transform="translate(1087,352) scale(1.0)"/>
+<text x="1129" y="373" font-size="11" font-weight="400" fill="#5A6B80" text-anchor="start">Azure OpenAI</text>
+<text x="1087" y="395" font-size="14" font-weight="700" fill="#1F2D3D" text-anchor="start">사실 · 가정</text>
+<text x="1087" y="412" font-size="14" font-weight="700" fill="#1F2D3D" text-anchor="start">불확실성 분류</text>
+<circle cx="1225" cy="354" r="9" fill="#0078D4"/>
+<text x="1225" y="358" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">6</text>
+<rect x="1270" y="340" width="165" height="84" rx="10" fill="#FFFFFF" stroke="#7FB3E6" stroke-width="1.8" filter="url(#sh)"/>
+<use xlink:href="#i-review" href="#i-review" transform="translate(1282,352) scale(1.0)"/>
+<text x="1324" y="373" font-size="11" font-weight="400" fill="#5A6B80" text-anchor="start">Copilot 검토 UX</text>
+<text x="1282" y="412" font-size="14" font-weight="700" fill="#1F2D3D" text-anchor="start">인간 검토</text>
+<circle cx="1420" cy="354" r="9" fill="#0078D4"/>
+<text x="1420" y="358" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">7</text>
+<rect x="1465" y="340" width="165" height="84" rx="10" fill="#FFFFFF" stroke="#7FB3E6" stroke-width="1.8" filter="url(#sh)"/>
+<use xlink:href="#i-flag" href="#i-flag" transform="translate(1477,352) scale(1.0)"/>
+<text x="1519" y="373" font-size="11" font-weight="400" fill="#5A6B80" text-anchor="start">Power Automate</text>
+<text x="1477" y="395" font-size="14" font-weight="700" fill="#1F2D3D" text-anchor="start">의사결정 /</text>
+<text x="1477" y="412" font-size="14" font-weight="700" fill="#1F2D3D" text-anchor="start">후속 조치</text>
+<circle cx="1615" cy="354" r="9" fill="#0078D4"/>
+<text x="1615" y="358" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">8</text>
+<path d="M265 382H294" fill="none" stroke="#33475F" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M460 382H489" fill="none" stroke="#33475F" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M655 382H684" fill="none" stroke="#33475F" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M850 382H879" fill="none" stroke="#33475F" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M1045 382H1074" fill="none" stroke="#33475F" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M1240 382H1269" fill="none" stroke="#33475F" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M1435 382H1464" fill="none" stroke="#33475F" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M330 202V290H182V338" fill="none" stroke="#33475F" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M767 338V204" fill="none" stroke="#CA5010" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arA)"/>
+<text x="776" y="300" font-size="12" font-weight="700" fill="#CA5010" text-anchor="start">누락</text>
+<path d="M1400 338V204" fill="none" stroke="#6B5DD3" stroke-width="2" marker-end="url(#arP)"/>
+<text x="1408" y="300" font-size="12" font-weight="700" fill="#6B5DD3" text-anchor="start">검토 요청</text>
+<path d="M962 338V306H1305V338" fill="none" stroke="#6B5DD3" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arP)"/>
+<text x="1133" y="298" font-size="12" font-weight="700" fill="#6B5DD3" text-anchor="middle">신뢰도 낮음</text>
+<rect x="295" y="465" width="165" height="72" rx="10" fill="#FDF3F4" stroke="#D13438" stroke-width="1.5" stroke-dasharray="6 4" filter="url(#sh)"/>
+<use xlink:href="#i-alert" href="#i-alert" transform="translate(307,477) scale(1.0)"/>
+<text x="349" y="498" font-size="11" font-weight="400" fill="#5A6B80" text-anchor="start">안내 후 종료</text>
+<text x="307" y="525" font-size="14" font-weight="700" fill="#A4262C" text-anchor="start">지원되지 않는 요청</text>
+<path d="M377 424V463" fill="none" stroke="#D13438" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arR)"/>
+<text x="386" y="449" font-size="12" font-weight="700" fill="#D13438" text-anchor="start">거부</text>
+<rect x="295" y="624" width="200" height="76" rx="10" fill="#fff" stroke="#6CC3B3" stroke-width="1.5" filter="url(#sh)"/>
+<use xlink:href="#i-folder" href="#i-folder" transform="translate(305,632) scale(0.9)"/>
+<text x="341" y="654" font-size="11" font-weight="400" fill="#5A6B80" text-anchor="start">SharePoint · Blob</text>
+<text x="305" y="688" font-size="12.5" font-weight="700" fill="#1F2D3D" text-anchor="start">워크숍 증거 파일</text>
+<rect x="515" y="624" width="200" height="76" rx="10" fill="#fff" stroke="#6CC3B3" stroke-width="1.5" filter="url(#sh)"/>
+<use xlink:href="#i-chart" href="#i-chart" transform="translate(525,632) scale(0.9)"/>
+<text x="561" y="654" font-size="11" font-weight="400" fill="#5A6B80" text-anchor="start">Data Lake</text>
+<text x="525" y="688" font-size="12.5" font-weight="700" fill="#1F2D3D" text-anchor="start">승인된 KPI / 운영 데이터</text>
+<rect x="735" y="624" width="200" height="76" rx="10" fill="#fff" stroke="#6CC3B3" stroke-width="1.5" filter="url(#sh)"/>
+<use xlink:href="#i-mail" href="#i-mail" transform="translate(745,632) scale(0.9)"/>
+<text x="781" y="654" font-size="11" font-weight="400" fill="#5A6B80" text-anchor="start">Graph 수집</text>
+<text x="745" y="688" font-size="12.5" font-weight="700" fill="#1F2D3D" text-anchor="start">회의 메모 / 이메일 / 보고서</text>
+<rect x="955" y="624" width="200" height="76" rx="10" fill="#fff" stroke="#6CC3B3" stroke-width="1.5" filter="url(#sh)"/>
+<use xlink:href="#i-doc" href="#i-doc" transform="translate(965,632) scale(0.9)"/>
+<text x="1001" y="654" font-size="11" font-weight="400" fill="#5A6B80" text-anchor="start">승인 문서함</text>
+<text x="965" y="688" font-size="12.5" font-weight="700" fill="#1F2D3D" text-anchor="start">관리 문서</text>
+<rect x="1175" y="624" width="210" height="76" rx="10" fill="#fff" stroke="#008272" stroke-width="1.8" stroke-dasharray="6 4" filter="url(#sh)"/>
+<use xlink:href="#i-graph" href="#i-graph" transform="translate(1185,632) scale(0.9)"/>
+<text x="1221" y="654" font-size="11" font-weight="400" fill="#5A6B80" text-anchor="start">메일 · Teams · SharePoint</text>
+<text x="1185" y="688" font-size="12.5" font-weight="700" fill="#1F2D3D" text-anchor="start">Microsoft Graph 커넥터</text>
+<rect x="1465" y="624" width="165" height="76" rx="10" fill="#fff" stroke="#742774" stroke-width="1.8" stroke-dasharray="6 4" filter="url(#sh)"/>
+<use xlink:href="#i-flow" href="#i-flow" transform="translate(1475,632) scale(0.9)"/>
+<text x="1511" y="654" font-size="11" font-weight="400" fill="#5A6B80" text-anchor="start">Teams · Planner</text>
+<text x="1475" y="688" font-size="12.5" font-weight="700" fill="#1F2D3D" text-anchor="start">Power Automate</text>
+<path d="M395 624V545" fill="none" stroke="#008272" stroke-width="2"/>
+<path d="M615 624V545" fill="none" stroke="#008272" stroke-width="2"/>
+<path d="M835 624V545" fill="none" stroke="#008272" stroke-width="2"/>
+<path d="M1055 624V545" fill="none" stroke="#008272" stroke-width="2"/>
+<path d="M1280 624V545" fill="none" stroke="#008272" stroke-width="2"/>
+<path d="M395 545H1280" fill="none" stroke="#008272" stroke-width="2"/>
+<path d="M767 545V426" fill="none" stroke="#008272" stroke-width="2" marker-end="url(#arT)"/>
+<text x="776" y="520" font-size="12" font-weight="700" fill="#008272" text-anchor="start">승인 근거만 매핑</text>
+<path d="M1547 424V622" fill="none" stroke="#742774" stroke-width="2" marker-end="url(#ar)"/>
+<text x="1556" y="520" font-size="12" font-weight="700" fill="#742774" text-anchor="start">후속 조치 실행</text>
+<rect x="100" y="770" width="200" height="110" rx="10" fill="#fff" stroke="#B9CBE3" stroke-width="1.5" filter="url(#sh)"/>
+<use xlink:href="#i-app" href="#i-app" transform="translate(114,782) scale(1.2)"/>
+<text x="114" y="842" font-size="12.5" font-weight="700" fill="#14263B" text-anchor="start">Azure App Service</text>
+<text x="114" y="864" font-size="10.5" font-weight="400" fill="#5A6B80" text-anchor="start">질문 수집 · 오케스트레이션 API</text>
+<rect x="330" y="770" width="200" height="110" rx="10" fill="#fff" stroke="#B9CBE3" stroke-width="1.5" filter="url(#sh)"/>
+<use xlink:href="#i-aoai" href="#i-aoai" transform="translate(344,782) scale(1.2)"/>
+<text x="344" y="842" font-size="12.5" font-weight="700" fill="#14263B" text-anchor="start">Azure OpenAI</text>
+<text x="344" y="864" font-size="10.5" font-weight="400" fill="#5A6B80" text-anchor="start">요약 · 사실/가정/불확실성 분류</text>
+<rect x="560" y="770" width="200" height="110" rx="10" fill="#fff" stroke="#B9CBE3" stroke-width="1.5" filter="url(#sh)"/>
+<use xlink:href="#i-search" href="#i-search" transform="translate(574,782) scale(1.2)"/>
+<text x="574" y="842" font-size="12.5" font-weight="700" fill="#14263B" text-anchor="start">Azure AI Search</text>
+<text x="574" y="864" font-size="10.5" font-weight="400" fill="#5A6B80" text-anchor="start">근거 카탈로그 · 소스 매핑 인덱스</text>
+<rect x="790" y="770" width="200" height="110" rx="10" fill="#fff" stroke="#B9CBE3" stroke-width="1.5" filter="url(#sh)"/>
+<use xlink:href="#i-storage" href="#i-storage" transform="translate(804,782) scale(1.2)"/>
+<text x="804" y="842" font-size="12.5" font-weight="700" fill="#14263B" text-anchor="start">Azure Storage / Data Lake</text>
+<text x="804" y="864" font-size="10.5" font-weight="400" fill="#5A6B80" text-anchor="start">승인 근거 원본 보관</text>
+<rect x="1020" y="770" width="200" height="110" rx="10" fill="#fff" stroke="#B9CBE3" stroke-width="1.5" filter="url(#sh)"/>
+<use xlink:href="#i-entra" href="#i-entra" transform="translate(1034,782) scale(1.2)"/>
+<text x="1034" y="842" font-size="12.5" font-weight="700" fill="#14263B" text-anchor="start">Entra ID + RBAC</text>
+<text x="1034" y="864" font-size="10.5" font-weight="400" fill="#5A6B80" text-anchor="start">인증 · 역할 기반 접근 제어</text>
+<rect x="1250" y="770" width="200" height="110" rx="10" fill="#fff" stroke="#B9CBE3" stroke-width="1.5" filter="url(#sh)"/>
+<use xlink:href="#i-monitor" href="#i-monitor" transform="translate(1264,782) scale(1.2)"/>
+<text x="1264" y="842" font-size="12.5" font-weight="700" fill="#14263B" text-anchor="start">Azure Monitor</text>
+<text x="1264" y="864" font-size="10.5" font-weight="400" fill="#5A6B80" text-anchor="start">로그 · 거부 / 저신뢰 추적</text>
+<rect x="1480" y="770" width="200" height="110" rx="10" fill="#fff" stroke="#B9CBE3" stroke-width="1.5" filter="url(#sh)"/>
+<use xlink:href="#i-chat" href="#i-chat" transform="translate(1494,782) scale(1.2)"/>
+<text x="1494" y="842" font-size="12.5" font-weight="700" fill="#14263B" text-anchor="start">Teams / Copilot 연동</text>
+<text x="1494" y="864" font-size="10.5" font-weight="400" fill="#5A6B80" text-anchor="start">대화형 UX · 검토 카드 채널</text>
+<text x="100" y="925" font-size="12" font-weight="700" fill="#33475F" text-anchor="start">범례</text>
+<path d="M140 921H175" stroke="#33475F" stroke-width="2" marker-end="url(#ar)"/>
+<text x="182" y="925" font-size="12" font-weight="400" fill="#33475F" text-anchor="start">주 흐름</text>
+<path d="M250 921H285" stroke="#CA5010" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arA)"/>
+<text x="292" y="925" font-size="12" font-weight="400" fill="#33475F" text-anchor="start">예외 · 보완 흐름</text>
+<path d="M420 921H455" stroke="#008272" stroke-width="2" marker-end="url(#arT)"/>
+<text x="462" y="925" font-size="12" font-weight="400" fill="#33475F" text-anchor="start">승인 근거 입력</text>
+<text x="1700" y="925" font-size="11" font-weight="400" fill="#5A6B80" text-anchor="end">Entra ID + RBAC는 전 구간 접근 통제, Azure Monitor는 질문 수집 · 인간 검토 로그를 수집합니다.  ※ 아이콘은 Azure · Copilot 스타일의 단순화 표현이며 공식 아이콘이 아닙니다.</text>
+</svg>

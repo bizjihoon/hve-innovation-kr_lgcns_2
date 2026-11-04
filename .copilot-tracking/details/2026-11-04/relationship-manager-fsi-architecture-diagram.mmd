@@ -1,0 +1,42 @@
+flowchart LR
+    U[관리자 / 분석가] --> Q[질문 수집]
+    Q --> G[근거 검증]
+    G --> A[승인된 근거 카탈로그]
+    A --> M[소스 매핑]
+    M --> S[요약 생성]
+    S --> L[사실 / 가정 / 불확실성]
+    L --> R[인간 검토]
+    R --> D[의사결정 또는 후속 조치]
+
+    G -->|거부| B[지원되지 않는 요청]
+    M -->|누락| C[추가 근거 요청]
+    S -->|신뢰도 낮음| R
+
+    subgraph Evidence["승인된 근거 소스"]
+        E1[워크숍 증거 파일]
+        E2[승인된 KPI / 운영 데이터]
+        E3[회의 메모 / 이메일 / 보고서]
+        E4[관리 문서]
+    end
+
+    E1 --> M
+    E2 --> M
+    E3 --> M
+    E4 --> M
+
+    subgraph Azure["Azure 서비스"]
+        P1[Azure App Service]
+        P2[Azure OpenAI]
+        P3[Azure AI Search]
+        P4[Azure Storage / Data Lake]
+        P5[Entra ID + RBAC]
+        P6[Azure Monitor]
+    end
+
+    Q --> P1
+    P1 --> P2
+    P1 --> P3
+    P3 --> P4
+    P1 --> P5
+    P1 --> P6
+    R --> P6

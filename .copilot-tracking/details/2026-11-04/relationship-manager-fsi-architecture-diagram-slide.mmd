@@ -1,0 +1,33 @@
+flowchart LR
+    U[관리자 / 분석가] --> A[질문 수집]
+    A --> B[근거 검증]
+    B --> C[승인된 근거]
+    C --> D[소스 매핑]
+    D --> E[요약 생성]
+    E --> F[사실 / 가정 / 위험 라벨]
+    F --> G[인간 검토]
+    G --> H[의사결정 / 후속 조치]
+
+    B -->|거부| Z[지원되지 않는 요청]
+    D -->|누락| Y[추가 근거 요청]
+
+    subgraph M365["Microsoft 365 경험"]
+        M1[Teams / Outlook / SharePoint 내 Copilot]
+    end
+
+    subgraph Azure["Azure 플랫폼"]
+        A1[Azure AI Search]
+        A2[Azure OpenAI]
+        A3[Entra ID + RBAC]
+        A4[Azure Monitor / Log Analytics]
+    end
+
+    U --> M1
+    M1 --> A
+    C --> A1
+    A1 --> D
+    D --> A2
+    A2 --> E
+    A3 --> B
+    G --> A4
+    H --> A4
