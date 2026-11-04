@@ -1,0 +1,11 @@
+﻿join_rule_id,source_table,target_table,join_condition,is_synthetic
+SYN-JR-001,management_performance_monthly,org_hierarchy,source.org_id = target.org_id AND source.month >= target.valid_from AND (target.valid_to IS NULL OR source.month <= target.valid_to),true
+SYN-JR-002,employee_monthly,org_master,source.org_id = target.org_id,true
+SYN-JR-003,project_master,org_master,source.org_id = target.org_id,true
+SYN-JR-004,project_monthly,project_master,source.project_id = target.project_id,true
+SYN-JR-005,budget_actual_monthly,org_master,source.org_id = target.org_id,true
+SYN-JR-006,query_execution_log,query_history,source.query_id = target.query_id,true
+SYN-JR-007,similar_question_index,query_history,source.query_id = target.query_id,true
+SYN-JR-008,chart_spec,metric_definition,source.metric_id = target.metric_id,true
+SYN-JR-009,data_access_audit,query_history,source.query_id = target.query_id,true
+SYN-JR-010,data_access_audit,data_access_policy,source.policy_id = target.policy_id,true

@@ -1,0 +1,9 @@
+﻿metric_id,metric_name,formula_sql,unit,default_chart_type,numerator,denominator,aggregation_method,time_grain,synonyms,source_table,is_synthetic
+SYN-M-001,매출액,SUM(revenue_actual),원,bar,revenue_actual,,SUM,month,"매출,매출액,수익",management_performance_monthly,true
+SYN-M-002,영업이익,SUM(operating_profit),원,bar,operating_profit,,SUM,month,"이익,영업이익",management_performance_monthly,true
+SYN-M-003,예산 집행률,"SUM(actual_amount) / NULLIF(SUM(budget_amount), 0)",%,line,actual_amount,budget_amount,RATIO_OF_SUMS,month,"집행률,예산사용률",budget_actual_monthly,true
+SYN-M-004,재직 인원,SUM(headcount),명,bar,headcount,,SUM,month,"인원,인력,재직자",employee_monthly,true
+SYN-M-005,영업이익률,"SUM(operating_profit) / NULLIF(SUM(revenue_actual), 0)",%,line,operating_profit,revenue_actual,RATIO_OF_SUMS,month,"수익률,영업이익률",management_performance_monthly,true
+SYN-M-006,매출총이익률,"SUM(gross_profit) / NULLIF(SUM(revenue_actual), 0)",%,line,gross_profit,revenue_actual,RATIO_OF_SUMS,month,"매출총이익률,마진",management_performance_monthly,true
+SYN-M-007,이익 목표 달성률,"SUM(operating_profit) / NULLIF(SUM(profit_target), 0)",%,bar,operating_profit,profit_target,RATIO_OF_SUMS,month,"이익달성률,목표달성",management_performance_monthly,true
+SYN-M-008,실제 투입시간,SUM(actual_hours),시간,line,actual_hours,,SUM,month,"투입시간,작업시간",project_monthly,true
