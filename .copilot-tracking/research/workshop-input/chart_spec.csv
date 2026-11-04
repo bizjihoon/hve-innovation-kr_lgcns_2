@@ -1,0 +1,9 @@
+﻿metric_id,chart_id,dimension_column,measure_column,number_format,chart_type,is_synthetic
+SYN-M-001,SYN-C-001,month,revenue_actual,"#,##0원",bar,true
+SYN-M-002,SYN-C-002,month,operating_profit,"#,##0원",bar,true
+SYN-M-003,SYN-C-003,month,actual_amount,0.0%,line,true
+SYN-M-004,SYN-C-004,month,headcount,"#,##0명",bar,true
+SYN-M-005,SYN-C-005,month,operating_profit,0.0%,line,true
+SYN-M-006,SYN-C-006,month,gross_profit,0.0%,line,true
+SYN-M-007,SYN-C-007,month,operating_profit,0.0%,bar,true
+SYN-M-008,SYN-C-008,month,actual_hours,"#,##0시간",line,true
