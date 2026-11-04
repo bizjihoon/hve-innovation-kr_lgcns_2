@@ -48,4 +48,4 @@ All later agents in this session should:
 ## Notes
 
 - This document is intentionally minimal and intentionally acts as a session guardrail.
-- Do not begin research, BRD/PRD drafting, backlog creation, or sensitive evidence copying before this context is reviewed and accepted.
+- Do not begin research, BRD/PRD drafting, backlog creation, or sensitive evidence copying before this context is reviewed and accepted.   
