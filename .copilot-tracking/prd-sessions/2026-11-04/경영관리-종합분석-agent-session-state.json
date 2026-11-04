@@ -1,0 +1,44 @@
+{
+  "session_name": "경영관리 종합분석 Agent",
+  "topic": "경영관리 종합분석 Agent",
+  "date": "2026-11-04",
+  "artifact_type": "prd_draft",
+  "status": "draft_human_review_required",
+  "evidence_root": ".copilot-tracking/research/workshop-input",
+  "session_context": ".copilot-tracking/research/2026-11-04/경영관리-종합분석-agent-session-context.md",
+  "research_artifact": ".copilot-tracking/research/2026-11-04/경영관리-종합분석-agent-primary-research.md",
+  "brd_artifact": ".copilot-tracking/brd-sessions/2026-11-04/경영관리-종합분석-agent-brd-draft.md",
+  "facts": [
+    "The workshop expects a structured research -> BRD -> PRD -> design -> backlog flow.",
+    "Shared session context is required before requirement drafting begins.",
+    "Approved evidence is constrained to synthetic or public workshop-safe content, not production-sensitive material.",
+    "Human review is required before a draft artifact is treated as trusted output."
+  ],
+  "assumptions": [
+    "The target product is a management-analysis assistant for business decision support.",
+    "Users need faster synthesis and clearer exception spotting, not full autonomous control.",
+    "Value is tied to explainability, evidence traceability, and human reviewability."
+  ],
+  "proposed_decisions": [
+    "Define the product as a decision-support assistant rather than an autonomous controller.",
+    "Require explicit evidence sourcing and clear separation of facts from assumptions.",
+    "Keep the workflow review-gated until the user and human reviewer agree on scope and risk.",
+    "Continue the workshop flow by validating the PRD scope before design or backlog implementation begins."
+  ],
+  "open_questions": [
+    "What exact management domain will be in scope: finance, operations, sales, HR, portfolio, or cross-functional performance?",
+    "Which management decisions must the assistant support: KPI review, exception detection, forecasting, risk screening, or executive briefs?",
+    "Which approved evidence sources will be available for the workshop scenario?",
+    "What level of evidence traceability is required in the final output?",
+    "Which user roles are primary and which are support or validation roles?",
+    "Which metrics will be used to verify the product's business value and trustworthiness?"
+  ],
+  "evidence_references": [
+    ".copilot-tracking/research/2026-11-04/경영관리-종합분석-agent-session-context.md",
+    ".copilot-tracking/research/2026-11-04/경영관리-종합분석-agent-primary-research.md",
+    ".copilot-tracking/brd-sessions/2026-11-04/경영관리-종합분석-agent-brd-draft.md",
+    "docs/getting-started/partner-workshop.md",
+    "docs/getting-started/partner-workshop-setup.md",
+    "docs/hve-guide/roles/business-program-manager.md"
+  ]
+}

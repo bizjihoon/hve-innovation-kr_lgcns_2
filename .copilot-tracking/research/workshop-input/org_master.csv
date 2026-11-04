@@ -1,0 +1,14 @@
+﻿org_id,parent_org_id,org_name,org_level,is_synthetic
+SYN-ORG-000,,가상기업,0,true
+SYN-ORG-001,SYN-ORG-000,가상디지털본부,1,true
+SYN-ORG-101,SYN-ORG-001,가상디지털1팀,2,true
+SYN-ORG-102,SYN-ORG-001,가상디지털2팀,2,true
+SYN-ORG-103,SYN-ORG-001,가상디지털3팀,2,true
+SYN-ORG-002,SYN-ORG-000,가상클라우드본부,1,true
+SYN-ORG-201,SYN-ORG-002,가상클라우드1팀,2,true
+SYN-ORG-202,SYN-ORG-002,가상클라우드2팀,2,true
+SYN-ORG-203,SYN-ORG-002,가상클라우드3팀,2,true
+SYN-ORG-003,SYN-ORG-000,가상AI데이터본부,1,true
+SYN-ORG-301,SYN-ORG-003,가상AI데이터1팀,2,true
+SYN-ORG-302,SYN-ORG-003,가상AI데이터2팀,2,true
+SYN-ORG-303,SYN-ORG-003,가상AI데이터3팀,2,true

@@ -1,0 +1,16 @@
+﻿dataset_id,check_date,row_count,null_count,duplicate_count,quality_status,validation_scope,is_synthetic
+ORG_MASTER,2026-09-30,13,0,0,정상,Measured required-null/PK checks; all FK/date/accounting assertions pass,true
+ORG_HIERARCHY,2026-09-30,13,0,0,정상,Measured required-null/PK checks; all FK/date/accounting assertions pass,true
+EMPLOYEE_MONTHLY,2026-09-30,8910,0,0,정상,Measured required-null/PK checks; all FK/date/accounting assertions pass,true
+PROJECT_MASTER,2026-09-30,54,0,0,정상,Measured required-null/PK checks; all FK/date/accounting assertions pass,true
+PROJECT_MONTHLY,2026-09-30,448,0,0,정상,Measured required-null/PK checks; all FK/date/accounting assertions pass,true
+BUDGET_ACTUAL_MONTHLY,2026-09-30,891,0,0,정상,Measured required-null/PK checks; all FK/date/accounting assertions pass,true
+MANAGEMENT_PERFORMANCE_MONTHLY,2026-09-30,297,0,0,정상,Measured required-null/PK checks; all FK/date/accounting assertions pass,true
+METRIC_DEFINITION,2026-09-30,8,0,0,정상,Measured required-null/PK checks; all FK/date/accounting assertions pass,true
+JOIN_RULE,2026-09-30,10,0,0,정상,Measured required-null/PK checks; all FK/date/accounting assertions pass,true
+QUERY_HISTORY,2026-09-30,600,0,0,정상,Measured required-null/PK checks; all FK/date/accounting assertions pass,true
+QUERY_EXECUTION_LOG,2026-09-30,660,0,0,정상,Measured required-null/PK checks; all FK/date/accounting assertions pass,true
+SIMILAR_QUESTION_INDEX,2026-09-30,600,0,0,정상,Measured required-null/PK checks; all FK/date/accounting assertions pass,true
+CHART_SPEC,2026-09-30,8,0,0,정상,Measured required-null/PK checks; all FK/date/accounting assertions pass,true
+DATA_ACCESS_POLICY,2026-09-30,3,0,0,정상,Measured required-null/PK checks; all FK/date/accounting assertions pass,true
+DATA_ACCESS_AUDIT,2026-09-30,600,0,0,정상,Measured required-null/PK checks; all FK/date/accounting assertions pass,true

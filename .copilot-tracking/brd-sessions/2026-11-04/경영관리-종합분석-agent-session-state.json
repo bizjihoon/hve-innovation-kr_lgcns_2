@@ -1,0 +1,43 @@
+{
+  "sessionName": "경영관리 종합분석 Agent",
+  "topic": "경영관리 종합분석 Agent",
+  "date": "2026-11-04",
+  "workflow": "BRD Builder",
+  "status": "draft-human-review",
+  "sessionContext": ".copilot-tracking/research/2026-11-04/경영관리-종합분석-agent-session-context.md",
+  "researchArtifact": ".copilot-tracking/research/2026-11-04/경영관리-종합분석-agent-primary-research.md",
+  "approvedEvidenceRoot": ".copilot-tracking/research/workshop-input",
+  "businessProblem": "Business teams need an evidence-based management analysis capability that reduces manual synthesis effort while preserving governance boundaries and human accountability.",
+  "primaryUsers": [
+    "Business managers",
+    "Department heads",
+    "Analysts",
+    "Compliance or governance reviewers"
+  ],
+  "requirementsDraft": ".copilot-tracking/brd-sessions/2026-11-04/경영관리-종합분석-agent-brd-draft.md",
+  "facts": [
+    "The workshop expects structured, role-based work and a shared session context before deeper artifact creation.",
+    "The repository requires approved evidence boundaries and prohibits copying sensitive data into the repo.",
+    "The research and setup docs position the team to produce research, BRD, PRD, design, and backlog outputs.",
+    "Human review is required before artifacts are treated as trusted output."
+  ],
+  "assumptions": [
+    "The target solution is a management-analysis assistant rather than a direct decision-maker.",
+    "The primary value is reducing manual synthesis work and surfacing decision-relevant signals.",
+    "The agent should support explainability and evidence traceability rather than unreviewed automation."
+  ],
+  "proposedDecisions": [
+    "Define the agent as a decision-support tool rather than an autonomous decision authority.",
+    "Require evidence-backed output and explicitly cite approved source material when available.",
+    "Use a human review gate before the system is treated as operationally trusted.",
+    "Sequence the workflow through research, BRD, PRD, design, and backlog rather than bypassing requirements work."
+  ],
+  "openQuestions": [
+    "What management domain is in scope?",
+    "Which decision outcomes should the agent support?",
+    "Who are the primary users and their authority level?",
+    "Which evidence sources are officially approved for the workshop?",
+    "What level of traceability is required?",
+    "Which metrics will be used to prove value?"
+  ]
+}
